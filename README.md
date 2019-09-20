@@ -1,2 +1,1 @@
 # korvo-bot
-Discord bot

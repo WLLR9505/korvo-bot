@@ -43,4 +43,10 @@ bot.on('message', msg => {
     if (msg.content === '!del') {
         deleteAll(bot, msg);
     }
+    
+    if (msg.content === '!help') {
+        msg.reply('!del - delete last messages\n!korvo - Bot say hi\n!calc - calculate an expression\n!stealth n - delete this message after n seconds').then((msg) => {
+            msg.delete(10000);
+        });
+    }
 });

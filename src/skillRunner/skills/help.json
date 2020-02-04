@@ -1,0 +1,18 @@
+[
+    {
+        "command": "!k !korvo",
+        "description": "Bot diz olá"
+    },
+    {
+        "command": "!c  !calc",
+        "description": "calcula uma expressão"
+    },
+    {
+        "command": "!g n  !ghost n",
+        "description": "deleta essa menssagem depois de n segundos"
+    },
+    {
+        "command": "!e  !Encrypt / !d  !Decrypt",
+        "description": "Encripta ou decripta uma menssagem usando sua chave \n\n**EX: !d Mensagem para criptografar - chave **\n*separar mensagem e chave com ' - 'com espaços*"
+    }
+]

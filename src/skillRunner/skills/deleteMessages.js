@@ -1,4 +1,4 @@
-module.exports = async (client, message) => {
+module.exports = async (message) => {
     let i = 0
     let fetched;
     fetched = await message.channel.fetchMessages({ limit: 100 });

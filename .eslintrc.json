@@ -27,6 +27,7 @@
         "no-self-compare": "error",
         "yoda": [ "error", "never" ],
 
+        "arrow-body-style":"off",
         "array-bracket-spacing": [ "error", "always" ],
         "block-spacing": [ "error", "always" ],
         "brace-style": [ "error", "1tbs", { "allowSingleLine": true } ],

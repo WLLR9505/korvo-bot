@@ -12,7 +12,11 @@
         "description": "deleta essa menssagem depois de n segundos"
     },
     {
-        "command": "!e  !Encrypt / !d  !Decrypt",
+        "command": "!lm x  !listmembers x",
+        "description": "lista usuários com o cargo *x*"
+    },
+    {
+        "command": "!e  !encrypt / !d  !decrypt",
         "description": "Encripta ou decripta uma menssagem usando sua chave \n\n**EX: !d Mensagem para criptografar - chave **\n*separar mensagem e chave com ' - 'com espaços*"
     }
 ]

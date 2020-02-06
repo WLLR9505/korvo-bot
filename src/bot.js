@@ -1,7 +1,6 @@
 var Discord = require('discord.js');
 var version = require('../package.json').version;
 var skillRunner = require('./skillRunner/runner.js');
-var deleteAllMessages = require('./skillRunner/skills/deleteMessages.js');
 
 module.exports = class BOT {
     constructor(token) {
@@ -19,12 +18,6 @@ module.exports = class BOT {
     }
 
     run(msg) {
-        if (msg.content.startsWith('!')) {
-            skillRunner(msg);
-        }
-    }
-
-    deleteMessages(msg) {
-        deleteAllMessages(msg);
+        skillRunner(msg);
     }
 }

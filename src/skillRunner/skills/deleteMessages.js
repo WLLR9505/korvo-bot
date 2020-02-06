@@ -1,4 +1,7 @@
 module.exports = async (message) => {
+    if (!message.member.roles.some(r => ['ADM'].includes(r.name)))
+        return message.reply('*Você não tem permissão para usar este comando*');
+
     let i = 0
     let fetched;
     fetched = await message.channel.fetchMessages({ limit: 100 });

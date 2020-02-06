@@ -2,7 +2,9 @@ var skillList = [
     [['!h', '!help'], require('./skills/help.js')],
     [['!g', '!ghost'], require('./skills/ghostMessage.js')],
     [['!k', '!korvo'], require('./skills/hi.js')],
+    [['!lm', '!listmembers'], require('./skills/listRoleMembers.js')],
     [['!c', '!calc'], require('./skills/calculate.js')],
+    [['!del', '!delete'], require('./skills/deleteMessages')],
     [['!e', '!d', '!encrypt', '!decrypt'], require('./skills/cipher.js')],
 ];
 

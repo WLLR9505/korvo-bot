@@ -1,5 +1,5 @@
 require('dotenv').config();
-var BOT = require('./src/bot.js');
+var BOT = require('./src/bot');
 
 var Korvo = new BOT(process.env.BOT_TOKEN);
 Korvo.login();

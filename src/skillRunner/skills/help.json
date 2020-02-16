@@ -16,6 +16,14 @@
         "description": "lista usuários com o cargo *x*"
     },
     {
+        "command": "!ar u c  !addRole u c",
+        "description": "Adiciona um cargo existente *c* ao usuário *u*"
+    },
+    {
+        "command": "!rr u c  !removeRole u c",
+        "description": "Remove um cargo existente *c* ao usuário *u*"
+    },
+    {
         "command": "!e  !encrypt / !d  !decrypt",
         "description": "Encripta ou decripta uma menssagem usando sua chave \n\n**EX: !d Mensagem para criptografar - chave **\n*separar mensagem e chave com ' - 'com espaços*"
     }

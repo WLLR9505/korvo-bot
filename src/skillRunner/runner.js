@@ -1,11 +1,13 @@
 var skillList = [
-    [['!h', '!help'], require('./skills/help.js')],
-    [['!g', '!ghost'], require('./skills/ghostMessage.js')],
-    [['!k', '!korvo'], require('./skills/hi.js')],
-    [['!lm', '!listmembers'], require('./skills/listRoleMembers.js')],
-    [['!c', '!calc'], require('./skills/calculate.js')],
+    [['!h', '!help'], require('./skills/help')],
+    [['!g', '!ghost'], require('./skills/ghostMessage')],
+    [['!k', '!korvo'], require('./skills/hi')],
+    [['!lm', '!listmembers'], require('./skills/listRoleMembers')],
+    [['!c', '!calc'], require('./skills/calculate')],
     [['!del', '!delete'], require('./skills/deleteMessages')],
-    [['!e', '!d', '!encrypt', '!decrypt'], require('./skills/cipher.js')],
+    [['!rr', '!removeRole'], require('../skillRunner/removeRole')],
+    [['!ar', '!addRole'], require('../skillRunner/addRole')],
+    [['!e', '!d', '!encrypt', '!decrypt'], require('./skills/cipher')],
 ];
 
 module.exports = (msg) => {

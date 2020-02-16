@@ -1,6 +1,6 @@
 var Discord = require('discord.js');
 var version = require('../package.json').version;
-var skillRunner = require('./skillRunner/runner.js');
+var skillRunner = require('./skillRunner/runner');
 
 module.exports = class BOT {
     constructor(token) {
